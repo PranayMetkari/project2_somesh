@@ -4710,3 +4710,70 @@ p.item_text {
     }
     
 }
+
+
+/* my csss */
+
+.hm_service_box1 {
+  text-align: center;
+  padding: 30px 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+.hm_service_box1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.hm_service_box1 .service_icon1 {
+  margin-bottom: 20px;
+}
+
+.hm_service_box1 .service_icon1 i {
+  font-size: 40px;
+  color: #e6aa0e; /* warm brown, feels natural and handmade */
+  background-color: #f3e7d9; /* soft earthy background */
+  padding: 18px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.hm_service_box1:hover .service_icon1 i {
+  background-color: #e6aa0e;
+  color: #fff;
+}
+
+.hm_service_box1 h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hm_service_box1 p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+.hm_service_box .service_icon i {
+    font-size: 28px;
+    margin-top: 25px;
+    color: #e6aa0e;
+    transition: all 0.3s ease;
+}
+
+.hm_footer_box img {
+    max-width: 125px;  /* Adjust as needed: try 60px, 100px, etc. */
+    height: auto;
+    display: block;
+    /* margin-bottom: 10px; Optional spacing below the logo */
+}
+

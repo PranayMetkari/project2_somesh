@@ -140,7 +140,7 @@ a.news_btn {
 }
 .hm_service_box:hover .service_icon:after {
     opacity: 1;
-    box-shadow: 3px 3px 0 rgba(252, 90, 109, 0.89);
+    box-shadow: 3px 3px 0 #e6aa0e;
 }
 .service_icon:after {
     top: -8px;
