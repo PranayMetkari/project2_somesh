@@ -90,7 +90,7 @@ a:focus {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #fc5a6d !important;
+    border-color: #e6aa0e !important;
 }
 .margin_btm30 {
     margin-bottom: 30px;
@@ -205,7 +205,7 @@ a:focus {
     padding: 5px 10px;
 }
 #style-switcher h2 {
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
     color: #fff;
     padding: 0;
     font-size: 15px;
@@ -217,7 +217,7 @@ a:focus {
     background-image: url("../images/settings.png");
     background-repeat: no-repeat;
     background-position: 9px center;
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
     display: block;
     height: 41px;
     position: absolute;
@@ -282,7 +282,7 @@ a:focus {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 0;
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
     color: #fff;
 }
 #reset a {
@@ -293,7 +293,7 @@ a:focus {
     border-radius: 1px;
 }
 .default {
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
 }
 .olive {
     background-color: #abbd38;
@@ -384,11 +384,11 @@ body.boxed .rev_slider_wrapper {
     -o-transition: all 0.3s ease-in-out;
 }
 .hm_top_login ul li a:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 .hm_top_login ul li a i.fa {
     margin-right: 7px;
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
 }
 .hm_top_address {
@@ -402,7 +402,7 @@ body.boxed .rev_slider_wrapper {
 }
 .hm_top_address p i.fa {
     margin-right: 7px;
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
     font-size: 16px;
 }
@@ -425,12 +425,12 @@ body.boxed .rev_slider_wrapper {
 }
 .hm_top_wishlist p a i.fa {
     margin-right: 7px;
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
     font-size: 16px;
 }
 .hm_top_wishlist p a:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
 }
 .hm_top_usd {
@@ -443,12 +443,12 @@ body.boxed .rev_slider_wrapper {
     text-transform: uppercase;
 }
 .hm_top_usd p a:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
 }
 .hm_top_usd p a i.fa {
     margin-right: 7px;
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
     font-size: 16px;
 }
@@ -461,7 +461,7 @@ ul.usd_dropmenu {
     border: 1px solid #fff;
     padding: 7px;
     margin: 0px;
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
     z-index: 100;
     transform: translateY(10px);
     -webkit-transform: translateY(10px);
@@ -538,13 +538,13 @@ ul.usd_dropmenu li a:hover {
 .hm_top_search input[type="search"]:focus {
     box-shadow: none;
     outline: none;
-    border-color: #fc5a6d;
+    border-color: #e6aa0e;
 }
 span.search_icon {
     position: absolute;
     top: 3px;
     right: 3px;
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
     height: 39px;
     border: 1px solid transparent;
     padding: 0px 20px;
@@ -558,14 +558,14 @@ span.search_icon {
 }
 span.search_icon:hover {
     background-color: transparent;
-    border-color: #fc5a6d;
+    border-color: #e6aa0e;
 }
 span.search_icon i {
     line-height: 39px;
     color: #ffffff;
 }
 span.search_icon:hover i {
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 
 /*--Menu css start--*/
@@ -627,7 +627,7 @@ span.search_icon:hover i {
 }
 .hm_menu > ul > li > a:hover {
     background-color: #e6ac18;
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
 }
 /*--sub-menu css start--*/
@@ -660,17 +660,17 @@ span.search_icon:hover i {
     font-size: 15px;
     color: #484848;
     line-height: 25px;
-    border-bottom: 1px dotted #fc5a6d;
+    border-bottom: 1px dotted #e6aa0e;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
 }
 .hm_menu > ul > li > ul.sub-menu li:last-child a {
-    border-bottom: 2px solid #fc5a6d;
+    border-bottom: 2px solid #e6aa0e;
 }
 .hm_menu > ul > li > ul.sub-menu li > a:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 .hm_menu > ul > li:hover ul.sub-menu {
     display: block;
@@ -712,10 +712,10 @@ span.search_icon:hover i {
     line-height: 25px;
     text-transform: capitalize;
     color: #484848;
-    border-bottom: 1px dotted #fc5a6d;
+    border-bottom: 1px dotted #e6aa0e;
 }
 .hm_menu > ul > li > ul.sub-menu li ul li:last-child a {
-    border-bottom: 2px solid #fc5a6d;
+    border-bottom: 2px solid #e6aa0e;
 }
 @keyframes slideInDown {
     from {
@@ -975,7 +975,7 @@ span.search_icon:hover i {
     border-radius: 0px;
     position: relative;
     overflow: hidden;
-    border: 1px solid #fc5a6d;
+    border: 1px solid #e6aa0e;
     z-index: 1;
     -moz-transition: ease 0.35s all;
     -o-transition: ease 0.35s all;
@@ -991,7 +991,7 @@ span.search_icon:hover i {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
     border-radius: 0px;
     -webkit-transition-property: transform;
     transition-property: transform;
@@ -1012,7 +1012,7 @@ span.search_icon:hover i {
 .hm_btn:hover,
 .hm_btn:focus {
     text-decoration: none;
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 /*--New arrivals css start--*/
 
@@ -1072,7 +1072,7 @@ h1.hm_heading {
     text-transform: capitalize;
 }
 .new_pro_box:hover h3 a {
-    color: #fc5a6d;
+    color: #e6aa0e;
     text-decoration: none;
 }
 .new_pro_data p {
@@ -1088,7 +1088,7 @@ h1.hm_heading {
 }
 .pro_price {
     font-size: 24px;
-    color: #fc5a6d;
+    color: #e6aa0e;
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
     line-height: 33px;
@@ -1110,7 +1110,7 @@ span.cart_icon {
     line-height: 23px;
     z-index: 1;
     border-radius: 5px;
-    border: 1px solid #fc5a6d;
+    border: 1px solid #e6aa0e;
 }
 .cart_icon a:hover,
 .cart_icon a:focus {
@@ -1676,7 +1676,7 @@ a.news_btn:hover {
 }
 .hm_footer_box ul li a:hover {
     text-decoration: none;
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 p.footer_about_para {
     color: #ffffff;
@@ -2654,7 +2654,7 @@ a.pro_buy:hover:before {
 .contact_box:before {
     content: "";
     position: absolute;
-    background: #fc5a6d;
+    background: #e6aa0e;
     height: 100%;
     width: 100%;
     left: 0;
@@ -2690,7 +2690,7 @@ a.pro_buy:hover:before {
 }
 .contact_box i.fa {
     font-size: 35px;
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 .contact_box h2 {
     margin: 10px 0px 15px;
@@ -2715,8 +2715,23 @@ a.pro_buy:hover:before {
 }
 .contact_form_wrapper {
     width: 100%;
-    background-color: #fc5a6d;
+    background-color: white;
 }
+
+.contact_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Or set a specific height like 100vh */
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.contact_image img {
+    max-width: 100%;
+    height: auto;
+}
+
 .hm_form {
     width: 100%;
     padding: 50px 0px;
@@ -2791,7 +2806,7 @@ a.pro_buy:hover:before {
     transform: scale(1);
 }
 .hm_form .hm_btn:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 .hm_form .form-control::-webkit-input-placeholder {
     color: #484848;
