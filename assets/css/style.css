@@ -612,7 +612,7 @@ span.search_icon:hover i {
     color: white;
 }
 .hm_menu > ul > li > a {
-    padding: 20px 17px;
+    padding: 25px 17px;
     color: #e6aa0e;
     text-transform: capitalize;
     display: block;
@@ -2308,15 +2308,29 @@ body.login_overflow {
     background-color: #ffffff;
 }
 .gallery_img {
-    width: 100%;
+    width: 300px;         /* Fixed width */
+    height: 250px;        /* Fixed height */
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
     z-index: 1;
 }
+
 .gallery_img img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;    /* Use "contain" if you want the whole image visible */
 }
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .res-mob-css {
+        width: 50% !important;          /* Full width of the container */
+        height: auto !important ;       /* Adjust height for mobile */
+    }
+}
+
+
 .gallery_img_overlay {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
