@@ -95,7 +95,7 @@
                                         <li><a href="services.html">services</a></li>
                                         <li><a href="gallery-3-column.html">gallery</a></li>
                                         <li><a href="blog-three-column.html">Blog</a></li>
-                                        <li class="active" ><a href="contact.html">contact</a></li>
+                                        <li class="active"><a href="contact.html">contact</a></li>
 
                                     </ul>
                                 </div>
@@ -163,25 +163,29 @@
                         <div class="hm_form">
                             <div class="col-lg-10 col-md-12">
                                 <h1>send a message</h1>
-                                <form class="form-inline">
+                                <form class="form-inline" id="contact_form" method="POST" action="send_email.php">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                        <input type="text" name="username" class="form-control" id="name"
+                                            placeholder="Name">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <input type="email" name="useremail" class="form-control" id="email"
+                                            placeholder="Email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="number" placeholder="Phone">
+                                        <input type="text" name="userphone" class="form-control" id="number"
+                                            placeholder="Phone">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <input type="text" name="usersubject" class="form-control" id="subject"
+                                            placeholder="Subject">
                                     </div>
                                     <div class="form-group textarea">
-                                        <textarea class="form-control" rows="3" id="message"
+                                        <textarea name="user_msg" class="form-control" rows="3" id="message"
                                             placeholder="Message"></textarea>
                                     </div>
                                     <div class="con_btn">
-                                        <a href="javascript:;" class="hm_btn submit_frm"> submit</a>
+                                        <button type="submit" class="hm_btn">Submit</button>
                                     </div>
                                     <p id="err_msg"></p>
 
@@ -211,7 +215,7 @@
                             <ul>
                                 <li><a href="index.html">home</a></li>
                                 <li><a href="about.html">About</a></li>
-                                <!-- <li><a href="services.html"></a>Services</li> -->
+                                <li><a href="blog-three-column.html">Blog</a></li>
                                 <li><a href="gallery-3-column.html">Gallery</a></li>
                             </ul>
                         </div>

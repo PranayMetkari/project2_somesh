@@ -4910,3 +4910,27 @@ p.item_text {
     margin-top: 10px;
   }
 }
+
+
+.why_choose_wrapper .contact_box {
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.why_choose_wrapper .contact_box i {
+    font-size: 24px;
+    color: #fc5a6d;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.why_choose_wrapper .section-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+

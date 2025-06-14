@@ -22,7 +22,7 @@ if(trim($u_name)!="Your Name" && trim($u_email)!="Your email" && trim($u_phone)!
 		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 		$headers .= 'From: <jhini.mehta@gmail.com>' . "\r\n";
 
-		if(mail('jhini.mehta@gmail.com','Query for Hand Made',$message,$headers ))
+		if(mail('pranay.metkari204@gmail.com','Query for Hand Made',$message,$headers ))
 		{
 		mail($u_email,'Reply from Hand Made Template Team',$message_user,$headers );
 			
