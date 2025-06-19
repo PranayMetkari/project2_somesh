@@ -1545,11 +1545,11 @@ h1.hm_heading.hm_heading_01 {
     -ms-transition: all 0.3s ease-in-out;
 }
 .hm_news_data ul li a:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 .hm_news_data ul li a i {
     margin-right: 5px;
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 a.popup-iframe i {
     font-size: 18px !important;
@@ -1559,7 +1559,7 @@ a.news_btn {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    color: #fc5a6d;
+    color: #e6aa0e;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1567,7 +1567,7 @@ a.news_btn {
     -o-transition: all 0.3s ease-in-out;
 }
 a.news_btn:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
     letter-spacing: 2px;
 }
 .hm_news_big_post {
@@ -1619,11 +1619,12 @@ a.news_btn:hover {
     font-weight: bold;
     margin-top: 15px;
 }
+
 /*--partners css start--*/
 
 .hm_partners_wrapper {
     width: 100%;
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
     padding: 76px 0px 80px;
 }
 .hm_partners_slider {
@@ -3121,7 +3122,7 @@ button.hm_btn {
     bottom: 0px;
     width: 32px;
     height: 2px;
-    background-color: #fc5a6d;
+    background-color: #e6aa0e;
 }
 .sidebar .popular-posts .post {
     position: relative;
@@ -3160,7 +3161,7 @@ button.hm_btn {
 }
 .sidebar .popular-posts .post a,
 .sidebar .popular-posts .post a:hover {
-    color: #fc5a6d;
+    color: #e6aa0e;
 }
 .sidebar .popular-posts .post h4 a {
     color: #222222;
